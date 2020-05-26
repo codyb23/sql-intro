@@ -75,7 +75,7 @@ INSERT INTO "Employees"
   ("FullName", "Salary", "JobPosition", "PhoneExtension",
   "IsPartTime")
 VALUES
-  ('Cherry GoldMan', '450', 'Software Developer', '727-657-9154', 'Yes');
+  ('Cherry GoldMan', '850', 'Software Developer', '727-657-9154', 'Yes');
 
 6.
 UPDATE "Employees" SET "Salary" = '500' Where "Salary" = '400'
