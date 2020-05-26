@@ -1,4 +1,5 @@
 1.
+
 CREATE TABLE "Employees"
 (
   "FullName" TEXT NOT NULL,
@@ -8,7 +9,9 @@ CREATE TABLE "Employees"
   "IsPartTime" TEXT,
   "Id" SERIAL PRIMARY KEY
 );
+
 2.
+
 INSERT INTO "Employees"
   ("FullName", "Salary", "JobPosition", "PhoneExtension",
   "IsPartTime")
@@ -62,28 +65,40 @@ INSERT INTO "Employees"
   "IsPartTime")
 VALUES
   ('Gavin Stark', '950', 'Software Developer', '727-895-9037', 'No');
+
 3.
+
 SELECT "FullName"
 FROM "Employees";
+
 4.
+
 SELECT "FullName", "PhoneExtension"
 From "Employees"
 WHERE "IsPartTime" = 'No';
 
+
 5.
+
 INSERT INTO "Employees"
   ("FullName", "Salary", "JobPosition", "PhoneExtension",
   "IsPartTime")
 VALUES
   ('Cherry GoldMan', '850', 'Software Developer', '727-657-9154', 'Yes');
 
+
 6.
+
 UPDATE "Employees" SET "Salary" = '500' Where "Salary" = '400'
 UPDATE "Employees" SET "Salary" = '500' Where "Salary" = '300'
 UPDATE "Employees" SET "Salary" = '500' Where "Salary" = '600'
 UPDATE "Employees" SET "Salary" = '500' Where "Salary" = '450'
+
 7.
+
 DELETE FROM "Employees" WHERE "FullName" = 'Lazy Larry';
+
 8.
+
 ALTER TABLE "Employees" ADD COLUMN "ParkingSpot" VARCHAR
 (10);
