@@ -213,10 +213,12 @@ VALUES
 
 --11.
 
-Select *
+Select "Employees"."FullName", "Departments"."Id"
 From "Employees"
-Where "DepartmentId" = 1;
+  Join "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";
 
-Select *
+--12.
+
+Select "Employees"."PhoneExtension", "Departments"."DepartmentName"
 From "Employees"
-Where "DepartmentId" = 2;
+  Join "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";
