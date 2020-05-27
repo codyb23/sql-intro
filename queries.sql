@@ -231,3 +231,12 @@ from "Orders"
   Join "Products" On "Products"."Id" = 2;
 
 --14.
+
+INSERT INTO "ProductOrders"
+  ("ProductId", "OrderId", "OrderQuantity")
+VALUES
+  ('2', '1', '2');
+
+--15.
+
+DELETE FROM "ProductOrders" Where "ProductId" = 2 And "OrderId" = 1;
