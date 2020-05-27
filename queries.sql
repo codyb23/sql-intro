@@ -196,3 +196,10 @@ INSERT INTO "Orders"
   ("OrderNumber", "DatePlaced", "Email")
 VALUES
   ('X529', '2020-01-01 16:55:00', 'person@example.com');
+
+--9.
+
+INSERT INTO "ProductOrders"
+  ("ProductId", "OrderId", "OrderQuanity")
+VALUES
+  ("1", "1", "3");
