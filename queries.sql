@@ -210,3 +210,13 @@ INSERT INTO "ProductOrders"
   ("ProductId", "OrderId", "OrderQuantity")
 VALUES
   ('2', '1', '2');
+
+--11.
+
+Select *
+From "Employees"
+Where "DepartmentId" = 1;
+
+Select *
+From "Employees"
+Where "DepartmentId" = 2;
