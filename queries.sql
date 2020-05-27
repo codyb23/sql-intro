@@ -200,6 +200,13 @@ VALUES
 --9.
 
 INSERT INTO "ProductOrders"
-  ("ProductId", "OrderId", "OrderQuanity")
+  ("ProductId", "OrderId", "OrderQuantity")
 VALUES
-  ("1", "1", "3");
+  ('1', '1', '3');
+
+--10.
+
+INSERT INTO "ProductOrders"
+  ("ProductId", "OrderId", "OrderQuantity")
+VALUES
+  ('2', '1', '2');
