@@ -222,3 +222,12 @@ From "Employees"
 Select "Employees"."PhoneExtension", "Departments"."DepartmentName"
 From "Employees"
   Join "Departments" ON "Employees"."DepartmentId" = "Departments"."Id";
+
+--13.
+
+Select "ProductOrders"."Id", "Products"."Name"
+from "Orders"
+  Join "ProductOrders" ON "ProductOrders"."OrderId" = "Orders"."Id"
+  Join "Products" On "Products"."Id" = 2;
+
+--14.
