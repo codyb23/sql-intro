@@ -1,4 +1,4 @@
-# SDG Assignment #7 : 03 - 01 - INSERT INTO Student (knowledge) VALUES ('SQL')
+# SDG Assignment #8 : 03 - 01 - INSERT INTO Student (knowledge) VALUES ('SQL')
 
 Every application uses data in some way. In many of our applications we will be
 storing information in a database. In this assignment we will be practicing
@@ -62,7 +62,7 @@ using SQL databases.
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
 
-# SDG Assignment #8 : 03 - 02 - Foreign Keys - The SQL
+# SDG Assignment #9 : 03 - 02 - Foreign Keys - The SQL
 
 As we continue to explore databases and ideas, this project will help you
 practice model databases and relationships.
